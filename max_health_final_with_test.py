@@ -194,8 +194,7 @@ def run_live_inference(model_path, npz_path):
 run_live_inference("robust_model.pth", DATA_PATH)
 
 # =========================================================
-# PROFESSIONAL EVALUATION OF ROBUST_MODEL ON HAM10000
-# (Architecture-aligned, domain-shift aware, interview-safe)
+# EVALUATION OF MODEL ON HAM10000
 # =========================================================
 
 import os
